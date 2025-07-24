@@ -40,7 +40,7 @@ jobs:
       - name: 将YAML添加到README.md中
         run: |
           echo "---" > temp_readme.md
-          echo "title: Open WebUI" >> temp_readme.md
+          echo "title: Warming Chat" >> temp_readme.md
           echo "emoji: 🐳" >> temp_readme.md
           echo "colorFrom: purple" >> temp_readme.md
           echo "colorTo: gray" >> temp_readme.md
